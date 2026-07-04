@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Ejercicio 1 */
+.fondo {
+  background-color: #1d0000;
+}
+
+.contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.tamaño-img {
+  width: 400px;
+  height: auto;
+}
+
+.img-contenido {
+  border: 12px solid red;
+  box-shadow: 0 0 36px 8px red;
+}
+
+/* Ejercicio 2 */
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-top: 60px;
+  height: 800px;
+}
+
+.sticker-t {
+  font-family: sans-serif;
+}
+
+.stickers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.caja-s {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.img-s {
+  width: 120px;
+  height: auto;
+}
+
+#cantidad-s {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.btn1 {
+  background-color: black;
+  color: antiquewhite;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.btn1:hover {
+  cursor: pointer;
+}
+
+.btn1:active {
+  background-color: #858585;
+  color: #fffaf3;
+}
+
+/* Ejercicio 3 */
+#pass-ingresada {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+select {
+  font-size: 16px;
+  padding: 8px;
+}
+
+/* Index */
+.cuerpo {
+  height: 100dvh;
+}
+.landing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-top: 60px;
+  height: 400px;
+}
+
+.button-link {
+  padding: 16px 28px;
+  color: #fff2f2;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  background-color: #008b0c;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.button-link:hover {
+  background-color: #93ff60;
+  color: #c27e7e;
+  box-shadow: 0 0 28px 8px #93ff60;
+}
+
+.volver {
+  padding: 12px 24px;
+  color: #fff2f2;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: #008b0c;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  margin: auto;
+}
+
+.volver:hover {
+  background-color: #93ff60;
+  color: #c27e7e;
+  box-shadow: 0 0 28px 8px #93ff60;
+}

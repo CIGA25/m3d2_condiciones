@@ -1,4 +1,4 @@
-# Desafío 2: Condiciones en JavaScript 🛠️
+# Desafío 2 módulo 3: Condiciones en JavaScript 🛠️
 
 Este repositorio contiene el desarrollo del **desafío 2 del Módulo 3** del bootcamp **Desarrollo Front-End**. El objetivo central de este proyecto fue dominar la implementación de estructuras condicionales (`if`, `else if`, `else`) en JavaScript para alterar dinámicamente el comportamiento y la interfaz de una aplicación web basándose en acciones o ingresos numéricos realizados por el usuario.
 
